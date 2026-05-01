@@ -1,0 +1,30 @@
+{
+  "name": "claude-presentation-builder",
+  "version": "1.0.0",
+  "description": "Agentic AI-powered presentation builder — bring your own brand skill, get back a .pptx",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "src/"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  },
+  "keywords": [
+    "presentation",
+    "pptx",
+    "powerpoint",
+    "claude",
+    "anthropic",
+    "ai",
+    "agent"
+  ],
+  "license": "MIT"
+}
